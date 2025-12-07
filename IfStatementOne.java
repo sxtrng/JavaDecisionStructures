@@ -5,6 +5,8 @@ public class IfStatementOne {
         int freezingPoint = 0;
         char degreeSymbol = 'º';
 
+        System.out.printf("Today the temperature is %d%c.\n", temperature, degreeSymbol);
+
         if (temperature > 0) {
             System.out.printf("%d%c is above %d%c.\n", temperature, degreeSymbol, freezingPoint, degreeSymbol);
         }
