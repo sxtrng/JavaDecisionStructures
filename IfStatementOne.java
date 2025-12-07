@@ -6,15 +6,15 @@ public class IfStatementOne {
         char degreeSymbol = 'º';
 
         if (temperature > 0) {
-            System.out.printf("%d%c is above %d%c\n.", temperature, degreeSymbol, freezingPoint, degreeSymbol);
+            System.out.printf("%d%c is above %d%c.\n", temperature, degreeSymbol, freezingPoint, degreeSymbol);
         }
 
         if (temperature < 0) {
-            System.out.printf("%d%c is below %d%c\n.", temperature, degreeSymbol, freezingPoint, degreeSymbol);
+            System.out.printf("%d%c is below %d%c.\n", temperature, degreeSymbol, freezingPoint, degreeSymbol);
         }
 
         if (temperature == 0) {
-            System.out.printf("%d%c is  %d%c\n.", temperature, degreeSymbol, freezingPoint, degreeSymbol);
+            System.out.printf("%d%c is  %d%c.\n", temperature, degreeSymbol, freezingPoint, degreeSymbol);
         }
 
     }
