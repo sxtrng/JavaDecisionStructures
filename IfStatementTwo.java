@@ -20,5 +20,6 @@ public class IfStatementTwo {
         } else {
             System.out.printf("%d%c is freezing (%d%c).\n", temperature, degreeSymbol, freezingPoint, degreeSymbol);
         }
+        scanner.close(0);
     }
 }
